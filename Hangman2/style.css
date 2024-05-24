@@ -1,0 +1,100 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#category-selection {
+  text-align: center;
+}
+
+#category-selection label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+#category-selection select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#category-selection button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#category-selection button:hover {
+  background-color: #0056b3;
+}
+
+#game {
+  display: none;
+}
+
+#hangman-images {
+  margin-bottom: 20px;
+}
+#hangman-images img {
+  width: 200px;
+}
+
+#word-display {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#letter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#letter-buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 18px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#letter-buttons button:hover {
+  background-color: #218838;
+}
+
+#game-status {
+  font-size: 20px;
+  font-weight: bold;
+}
